@@ -133,7 +133,7 @@
 
 --- 
 
-[[Computer Science/SoftwareEngineering/Software Development Process Model 2]]
+[[Software Development Process Model 2]]
 
 --- 
 # References

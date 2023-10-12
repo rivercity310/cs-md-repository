@@ -1,7 +1,7 @@
 
 # Key
 
-![](images/Database/key001.png)
+![](images/database/key001.png)
 
 #### 1. 슈퍼키
 한 릴레이션 내 특정 투플을 고유하게 식별할 수 있는 하나 이상의 애트리뷰트 집합.

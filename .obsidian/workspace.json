@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "ddbbaf1a48b489ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc6e9bc67a4643ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4474ea937b28574f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Socket Programming/Network Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "416eeb97206374f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "620764f7ab9b8476",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07c3cf61060438f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "bcaab2b0624c6d9b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#데이터모델링",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a1caf6049d4aede",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 205.5
+  },
+  "right": {
+    "id": "cbd025e0b779c235",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b80426de78bf936",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c87ef09b23436fa8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Socket Programming/Network Programming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d13df5f3d80db79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Socket Programming/Network Programming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f578f204f9d38f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "88b9ce5ea0b308b3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Socket Programming/Network Programming.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "4474ea937b28574f",
+  "lastOpenFiles": [
+    "Software Engineering/Software Development Process Model 1.md",
+    "Software Engineering/Software Development Process Model 2.md",
+    "Socket Programming/Network Programming.md",
+    "Database Programming/Nomalization.md",
+    "Database Programming/Functional Dependency.md",
+    "Database Programming/Relation Keys, 무결성 제약조건.md",
+    "Database Programming/Database Design.md",
+    "Images/Software Engineering/scrum.png",
+    "Images/Software Engineering/up-model.png",
+    "Images/Software Engineering/phased-dev-model.png",
+    "Images/Software Engineering/spiral-model.png",
+    "Images/Software Engineering/orototype-model.png",
+    "Images/Software Engineering/waterfall-model.png",
+    "[waterfall-model.png.md",
+    "Images/Software Engineering/v-model.png",
+    "Images/Software Engineering",
+    "Software Engineering",
+    "Images/Database/key001.png",
+    "key001 1.png",
+    "key001.png",
+    "_Images/db_design .png.md",
+    "_images/db_design .png.md",
+    "db_design 1.png.md",
+    "Images/Database",
+    "Database Programming/DBP 1번.md",
+    "Database Programming/DBP 2번.md",
+    "Images/Socket Programming",
+    "Images",
+    "Project/딱대/기능도.md",
+    "Project/딱대",
+    "Project",
+    "2023-10-06.md",
+    "Database Programming",
+    "Socket Programming",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

@@ -9,7 +9,7 @@
 
 #### 1. 폭포수 모델
 
-![[images/Software Engineering/waterfall-model.png]]]
+![](images/software-engineering/waterfall-model.png)
 
 - 계획, 분석, 설계, 구현, 테스트, 유지보수 각 단계가 하향식(top-down)으로 진행
 - 각 단계마다 확실히 매듭을 짓고 그 결과를 확인한 후 다음 단계 진행
@@ -29,7 +29,7 @@
 
 #### 2. V 모델
 
-![[images/Software Engineering/v-model.png]]
+![](images/software-engineering/v-model.png)
 
 - 산출물 중심의 폭포수 모델의 변형 
 - 각 개발 단계를 검증하는 데 초점
@@ -40,7 +40,7 @@
 
 #### 1. 프로토타입 모델
 
-![[images/Software Engineering/orototype-model.png]]
+![](images/software-engineering/prototype-model.png)
 
 - 폭포수 모델 기반으로 개발하면서 동시에 사용자의 요구를 만족시키기 위한 모델
 - 완전한 설계 대신, 사용자와 대화할 수 있는 수준 정도의 입출력 중심 UI 설계
@@ -56,7 +56,7 @@
 
 #### 2. 나선형 모델
 
-![[images/Software Engineering/spiral-model.png]]
+![](images/software-engineering/spiral-model.png)
 
 - 프로토타입 모델에 위험 분석 단계가 추가된 모델
 - 프로토타입 개발 이전에 위험 분석 단계를 거침
@@ -75,7 +75,7 @@
 
 ### 단계적 개발 모델
 
-![[images/Software Engineering/phased-dev-model.png]]
+![](images/software-engineering/phased-dev-model.png)
 
 - **개발과 사용을 병행**하는 과정을 반복
 - 릴리즈를 구성하는 방법에 따라 점증적 개발 방법과 반복적 개발 방법으로 나뉨
@@ -99,7 +99,7 @@
 ### 통합 프로세스 모델 (Unified Process Model, UP 모델)
 
 
-![[images/Software Engineering/up-model.png]]
+![](images/software-engineering/up-model.png)
 
 - OMG(Object Management Group)이 UML(Unified Modeling Laungauge)과 함께 제안한 반복적/점증적 통합 프로세스 모델
 - 크게 4단계(도입, 구체화, 구축, 전이)로 나뉨

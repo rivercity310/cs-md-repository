@@ -14,7 +14,7 @@
 
 ## 데이터베이스 설계 단계도
 
-![[images/Database/db_design.png]]
+![](images/Database/db_design.png)
 
 
 **개념적 설계 단계까지 DBMS 독립적**

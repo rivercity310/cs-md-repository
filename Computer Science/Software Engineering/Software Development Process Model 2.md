@@ -27,7 +27,7 @@
 
 ## 스크럼
 
-![[images/Software Engineering/scrum.png]]
+![](images/software-engineering/scrum.png)
 
 - 소프트웨어 개발보다는 팀의 개선과 프로젝트 관리에 중점을 둔 애자일 방법론
 - 경험적 관리 기법 중 하나

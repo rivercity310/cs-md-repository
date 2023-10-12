@@ -102,4 +102,4 @@ struct hostent* gethostbyaddr(const char* addr, int len, int type);
 클라이언트 소켓 생성시 OS에서 임의로 포트번호 부여
 포트 번호를 지정하고 싶다면 bind() 함수를 통해 사용자 임의로 지정 가능
 
-![[images/Socket Programming/스크린샷 2023-10-10 092405.png]]
+![](images/socket-programming/tcp.png) 

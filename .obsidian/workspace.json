@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cc6e9bc67a4643ad",
+        "id": "8adcffa71391a3a7",
         "type": "tabs",
         "children": [
           {
-            "id": "4474ea937b28574f",
+            "id": "7b1c5f06349cad7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Socket Programming/Network Programming.md",
+                "file": "Computer Science/Database/Nomalization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Socket Programming/Network Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Socket Programming/Network Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Socket Programming/Network Programming.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -147,42 +145,46 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "4474ea937b28574f",
+  "active": "07c3cf61060438f8",
   "lastOpenFiles": [
-    "Software Engineering/Software Development Process Model 1.md",
-    "Software Engineering/Software Development Process Model 2.md",
-    "Socket Programming/Network Programming.md",
-    "Database Programming/Nomalization.md",
-    "Database Programming/Functional Dependency.md",
-    "Database Programming/Relation Keys, 무결성 제약조건.md",
-    "Database Programming/Database Design.md",
-    "Images/Software Engineering/scrum.png",
-    "Images/Software Engineering/up-model.png",
-    "Images/Software Engineering/phased-dev-model.png",
-    "Images/Software Engineering/spiral-model.png",
-    "Images/Software Engineering/orototype-model.png",
-    "Images/Software Engineering/waterfall-model.png",
-    "[waterfall-model.png.md",
-    "Images/Software Engineering/v-model.png",
-    "Images/Software Engineering",
-    "Software Engineering",
+    "Computer Science",
+    "Computer Science/Database/Nomalization.md",
+    "Untitled.md",
+    "Computer Science/Database/Functional Dependency.md",
+    "Computer Science/Database/Relation Keys, 무결성 제약조건.md",
+    "Computer Science/Database/Database Design.md",
     "Images/Database/key001.png",
+    "Computer Science/Socket Programming/Network Programming.md",
+    "Computer Science/Software Engineering/Software Development Process Model 2.md",
+    "Computer Science/Software Engineering/Software Development Process Model 1.md",
+    "Images/software-engineering/prototype-model.png",
+    "Images/socket-programming/tcp.png",
+    "images/Socket.md",
+    "Images/Socket.md",
+    "Images/software-engineering/scrum.png",
+    "Images/software-engineering/up-model.png",
+    "Images/software-engineering/phased-dev-model.png",
+    "Images/software-engineering/spiral-model.png",
+    "Images/software-engineering/waterfall-model.png",
+    "[waterfall-model.png.md",
+    "Images/software-engineering/v-model.png",
+    "Images/software-engineering",
+    "Computer Science/Software Engineering",
     "key001 1.png",
-    "key001.png",
     "_Images/db_design .png.md",
     "_images/db_design .png.md",
     "db_design 1.png.md",
     "Images/Database",
     "Database Programming/DBP 1번.md",
     "Database Programming/DBP 2번.md",
-    "Images/Socket Programming",
+    "Images/socket-programming",
     "Images",
     "Project/딱대/기능도.md",
     "Project/딱대",
     "Project",
     "2023-10-06.md",
-    "Database Programming",
-    "Socket Programming",
+    "Computer Science/Database",
+    "Computer Science/Socket Programming",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

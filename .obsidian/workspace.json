@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8adcffa71391a3a7",
+        "id": "b79113514bf0f3c6",
         "type": "tabs",
         "children": [
           {
-            "id": "7b1c5f06349cad7f",
+            "id": "4c55378cbedea1bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Database/Nomalization.md",
+                "file": "Computer Science/SoftwareEngineering/UML.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/SoftwareEngineering/UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/SoftwareEngineering/UML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Computer Science/SoftwareEngineering/UML.md"
               }
             }
           }
@@ -145,18 +147,24 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "07c3cf61060438f8",
+  "active": "4c55378cbedea1bb",
   "lastOpenFiles": [
+    "Images/software-engineering/usecase-diagram.png",
+    "Images/software-engineering/uml.png",
+    "Images/software-engineering/uml.png",
+    "Computer Science/SoftwareEngineering/UML.md",
+    "Images/software-engineering/actor-list.png",
+    "Computer Science/SoftwareEngineering/Software Development Process Model 1.md",
+    "Computer Science/SoftwareEngineering/Software Development Process Model 2.md",
+    "Computer.md",
+    "Computer Science/Database/Database Design.md",
+    "Untitled.md",
     "Computer Science",
     "Computer Science/Database/Nomalization.md",
-    "Untitled.md",
     "Computer Science/Database/Functional Dependency.md",
     "Computer Science/Database/Relation Keys, 무결성 제약조건.md",
-    "Computer Science/Database/Database Design.md",
     "Images/Database/key001.png",
-    "Computer Science/Socket Programming/Network Programming.md",
-    "Computer Science/Software Engineering/Software Development Process Model 2.md",
-    "Computer Science/Software Engineering/Software Development Process Model 1.md",
+    "Computer Science/SocketProgramming/Network Programming.md",
     "Images/software-engineering/prototype-model.png",
     "Images/socket-programming/tcp.png",
     "images/Socket.md",
@@ -165,12 +173,9 @@
     "Images/software-engineering/up-model.png",
     "Images/software-engineering/phased-dev-model.png",
     "Images/software-engineering/spiral-model.png",
-    "Images/software-engineering/waterfall-model.png",
     "[waterfall-model.png.md",
-    "Images/software-engineering/v-model.png",
     "Images/software-engineering",
-    "Computer Science/Software Engineering",
-    "key001 1.png",
+    "Computer Science/SoftwareEngineering",
     "_Images/db_design .png.md",
     "_images/db_design .png.md",
     "db_design 1.png.md",
@@ -184,7 +189,7 @@
     "Project",
     "2023-10-06.md",
     "Computer Science/Database",
-    "Computer Science/Socket Programming",
+    "Computer Science/SocketProgramming",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

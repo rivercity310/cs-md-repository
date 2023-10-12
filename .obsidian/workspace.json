@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/database/Relation Keys, 무결성 제약조건.md",
+                "file": "computer-science/database/Database Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/database/Relation Keys, 무결성 제약조건.md",
+                "file": "computer-science/database/Database Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/database/Relation Keys, 무결성 제약조건.md",
+                "file": "computer-science/database/Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/database/Relation Keys, 무결성 제약조건.md"
+                "file": "computer-science/database/Database Design.md"
               }
             }
           }
@@ -149,12 +149,12 @@
   },
   "active": "4c55378cbedea1bb",
   "lastOpenFiles": [
+    "computer-science/database/Relation Keys, 무결성 제약조건.md",
     "computer-science/database/Database Design.md",
     "computer-science/software-engineering/Software Development Process Model 1.md",
     "computer-science/socket-programming/Network Programming.md",
     "computer-science/database/Nomalization.md",
     "computer-science/database/Functional Dependency.md",
-    "computer-science/database/Relation Keys, 무결성 제약조건.md",
     "computer-science/software-engineering/UML.md",
     "Images/software-engineering/usecase-diagram.png",
     "Images/software-engineering/uml.png",

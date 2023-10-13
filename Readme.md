@@ -28,7 +28,7 @@
 	- Common
 		- [Android Architecture](dev/android/common/Android-Architecture.md)
 		- [AndroidManifest.xml](dev/android/common/AndroidManifest.md)
-		- [Intent 1](Intent-1.md)
+		- [Intent 1](dev/android/common/Intent-1.md)
 
 	- Jetpack Compose
 

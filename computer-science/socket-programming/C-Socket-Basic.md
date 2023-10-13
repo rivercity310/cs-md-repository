@@ -1,5 +1,5 @@
 
-## Socket Address Struct (소켓 주소 구조체)
+## 소켓 주소 구조체
 
 - Network Program에서 필요한 주소 정보를 담는 구조체
 - 다양한 소켓 함수의 인수로 사용 (기본형 sockaddr의 포인터형으로 캐스팅하여 전달)

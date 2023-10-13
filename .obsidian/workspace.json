@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md",
+                "file": "dev/android/common/AndroidManifest.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f18992ba2efa81b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/android/common/Intent.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c9f0038b7b3cc0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md",
+                "file": "Readme.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md",
+                "file": "Readme.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md"
+                "file": "Readme.md.md"
               }
             }
           }
@@ -147,50 +172,53 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "4c55378cbedea1bb",
+  "active": "6c9f0038b7b3cc0a",
   "lastOpenFiles": [
+    "dev/android/common/Android-Architecture.md",
+    "Readme.md.md",
+    "dev/android/common/Intent.md",
+    "dev/android/common/AndroidManifest.md",
+    "dev/android/common",
+    "computer-science/software-engineering/Software-Development-Process-Model-2.md",
+    "computer-science/software-engineering/Software-Development-Process-Model-1.md",
+    "computer-science/socket-programming/TCP-IP-Protocol.md",
+    "computer-science/socket-programming/C-Socket-Basic.md",
+    "computer-science/database/Untitled.md",
+    "computer-science/database/Transaction.md",
+    "computer-science/database/Functional-Dependency.md",
+    "computer-science/database/Database-Design.md",
+    "computer-science/database/Keys-&-Integrity-Constraint.md",
+    "computer-science/database/Nomalization.md",
+    "Images/springboot",
+    "dev/springboot",
+    "dev/android",
+    "Images/Database/db_design.png",
+    "Images/Database/key001.png",
     "Images/android/dex-to-bin.png",
     "computer-science/software-engineering/UML.md",
-    "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md",
     "Images/android/art.png",
     "Images/android/dvm.png",
     "computer-science/operating-system",
     "Images/android/android-software-stack.png",
     "Images/android",
-    "computer-science/database/Database Design.md",
-    "dev/jetpack-compose",
+    "dev/android/jetpack-compose",
     "dev",
-    "Images/Database/key001.png",
-    "Images/Database/db_design.png",
-    "computer-science/database/Relation Keys, 무결성 제약조건.md",
-    "computer-science/software-engineering/Software Development Process Model 1.md",
-    "computer-science/socket-programming/Network Programming.md",
-    "computer-science/database/Nomalization.md",
-    "computer-science/database/Functional Dependency.md",
     "Images/software-engineering/usecase-diagram.png",
     "Images/software-engineering/uml.png",
     "Images/software-engineering/uml.png",
     "Images/software-engineering/actor-list.png",
-    "computer-science/software-engineering/Software Development Process Model 2.md",
     "Computer.md",
-    "Untitled.md",
     "computer-science",
-    "Images/database/key001.png",
     "images/Socket.md",
     "Images/Socket.md",
     "[waterfall-model.png.md",
     "Images/software-engineering",
-    "computer-science/software-engineering",
     "_Images/db_design .png.md",
     "_images/db_design .png.md",
     "db_design 1.png.md",
-    "Images/database",
     "Database Programming/DBP 1번.md",
     "Database Programming/DBP 2번.md",
-    "Images/socket-programming",
-    "Images",
     "Project/딱대/기능도.md",
-    "2023-10-06.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

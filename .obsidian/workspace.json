@@ -25,18 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/android/common/Intent.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c9f0038b7b3cc0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Readme.md",
                 "mode": "source",
                 "source": false
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,18 +160,19 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6c9f0038b7b3cc0a",
+  "active": "f18992ba2efa81b8",
   "lastOpenFiles": [
-    "computer-science/database/Transaction.md",
+    "dev/android/common/Intent-1.md",
+    "Images/android/intent.png",
+    "computer-science/software-engineering/Software-Development-Process-Model-1.md",
+    "computer-science/socket-programming/C-Socket-Basic.md",
     "Readme.md",
+    "computer-science/database/Transaction.md",
     "dev/android/common/Android-Architecture.md",
-    "dev/android/common/Intent.md",
     "dev/android/common/AndroidManifest.md",
     "dev/android/common",
     "computer-science/software-engineering/Software-Development-Process-Model-2.md",
-    "computer-science/software-engineering/Software-Development-Process-Model-1.md",
     "computer-science/socket-programming/TCP-IP-Protocol.md",
-    "computer-science/socket-programming/C-Socket-Basic.md",
     "computer-science/database/Untitled.md",
     "computer-science/database/Functional-Dependency.md",
     "computer-science/database/Database-Design.md",
@@ -206,7 +195,6 @@
     "Images/software-engineering/usecase-diagram.png",
     "Images/software-engineering/uml.png",
     "Images/software-engineering/uml.png",
-    "Images/software-engineering/actor-list.png",
     "Computer.md",
     "computer-science",
     "images/Socket.md",

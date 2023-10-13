@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/database/Database Design.md",
+                "file": "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/database/Database Design.md",
+                "file": "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/database/Database Design.md",
+                "file": "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/database/Database Design.md"
+                "file": "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md"
               }
             }
           }
@@ -149,13 +149,24 @@
   },
   "active": "4c55378cbedea1bb",
   "lastOpenFiles": [
-    "computer-science/database/Relation Keys, 무결성 제약조건.md",
+    "Images/android/dex-to-bin.png",
+    "computer-science/software-engineering/UML.md",
+    "dev/jetpack-compose/안드로이드 아키텍쳐 개요.md",
+    "Images/android/art.png",
+    "Images/android/dvm.png",
+    "computer-science/operating-system",
+    "Images/android/android-software-stack.png",
+    "Images/android",
     "computer-science/database/Database Design.md",
+    "dev/jetpack-compose",
+    "dev",
+    "Images/Database/key001.png",
+    "Images/Database/db_design.png",
+    "computer-science/database/Relation Keys, 무결성 제약조건.md",
     "computer-science/software-engineering/Software Development Process Model 1.md",
     "computer-science/socket-programming/Network Programming.md",
     "computer-science/database/Nomalization.md",
     "computer-science/database/Functional Dependency.md",
-    "computer-science/software-engineering/UML.md",
     "Images/software-engineering/usecase-diagram.png",
     "Images/software-engineering/uml.png",
     "Images/software-engineering/uml.png",
@@ -165,13 +176,8 @@
     "Untitled.md",
     "computer-science",
     "Images/database/key001.png",
-    "Images/software-engineering/prototype-model.png",
-    "Images/socket-programming/tcp.png",
     "images/Socket.md",
     "Images/Socket.md",
-    "Images/software-engineering/scrum.png",
-    "Images/software-engineering/up-model.png",
-    "Images/software-engineering/phased-dev-model.png",
     "[waterfall-model.png.md",
     "Images/software-engineering",
     "computer-science/software-engineering",
@@ -184,11 +190,7 @@
     "Images/socket-programming",
     "Images",
     "Project/딱대/기능도.md",
-    "Project/딱대",
-    "Project",
     "2023-10-06.md",
-    "computer-science/database",
-    "computer-science/socket-programming",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

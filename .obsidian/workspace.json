@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md.md"
+                "file": "Readme.md"
               }
             }
           }
@@ -172,10 +172,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6c9f0038b7b3cc0a",
+  "active": "07c3cf61060438f8",
   "lastOpenFiles": [
     "dev/android/common/Android-Architecture.md",
-    "Readme.md.md",
+    "Readme.md",
     "dev/android/common/Intent.md",
     "dev/android/common/AndroidManifest.md",
     "dev/android/common",

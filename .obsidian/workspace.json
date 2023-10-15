@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b79113514bf0f3c6",
+        "id": "b633a349d065c427",
         "type": "tabs",
         "children": [
           {
-            "id": "4c55378cbedea1bb",
+            "id": "e209e6747cf8f121",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/android/common/AndroidManifest.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f18992ba2efa81b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/android/common/Intent-1.md",
+                "file": "dev/android/jetpack-compose/SAA-&-MVVM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/android/common/Intent-1.md",
+                "file": "dev/android/jetpack-compose/SAA-&-MVVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/android/common/Intent-1.md",
+                "file": "dev/android/jetpack-compose/SAA-&-MVVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/android/common/Intent-1.md"
+                "file": "dev/android/jetpack-compose/SAA-&-MVVM.md"
               }
             }
           }
@@ -160,16 +147,21 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "f18992ba2efa81b8",
+  "active": "e209e6747cf8f121",
   "lastOpenFiles": [
+    "Images/Database/key001.png",
+    "Images/Database/db_design.png",
+    "dev/android/jetpack-compose/SAA-&-MVVM.md",
+    "dev/android/common/AndroidManifest.md",
     "Readme.md",
+    "Images/android/viewmodel.png",
+    "Images/android/mvvm.png",
     "dev/android/common/Intent-1.md",
     "Images/android/intent.png",
     "computer-science/software-engineering/Software-Development-Process-Model-1.md",
     "computer-science/socket-programming/C-Socket-Basic.md",
     "computer-science/database/Transaction.md",
     "dev/android/common/Android-Architecture.md",
-    "dev/android/common/AndroidManifest.md",
     "dev/android/common",
     "computer-science/software-engineering/Software-Development-Process-Model-2.md",
     "computer-science/socket-programming/TCP-IP-Protocol.md",
@@ -181,8 +173,6 @@
     "Images/springboot",
     "dev/springboot",
     "dev/android",
-    "Images/Database/db_design.png",
-    "Images/Database/key001.png",
     "Images/android/dex-to-bin.png",
     "computer-science/software-engineering/UML.md",
     "Images/android/art.png",
@@ -193,8 +183,6 @@
     "dev/android/jetpack-compose",
     "dev",
     "Images/software-engineering/usecase-diagram.png",
-    "Images/software-engineering/uml.png",
-    "Images/software-engineering/uml.png",
     "Computer.md",
     "computer-science",
     "images/Socket.md",
@@ -206,7 +194,6 @@
     "db_design 1.png.md",
     "Database Programming/DBP 1번.md",
     "Database Programming/DBP 2번.md",
-    "Project/딱대/기능도.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

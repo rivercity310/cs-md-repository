@@ -7,7 +7,7 @@
     - 기본: sockaddr(16byte)
     - TCP/IP: sockaddr_in(IPv4, 16byte), sockaddr_in6(IPv6, 28byte)
     - Bluetooth: sockaddr_bth(30byte)
-- 플랫폼별 형식
+- 플랫폼별 선언 형식
     - 리눅스, 윈도우 통합: **struct sockaddr
     - c++ 컴파일러 사용시: **sockaddr
     - 윈도우 전용: **SOCKADDR

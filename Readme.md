@@ -31,6 +31,7 @@
 		- [Intent 1](dev/android/common/Intent-1.md)
 
 	- Jetpack Compose
+		- [SAA & MVVM](dev/android/jetpack-compose/SAA-&-MVVM)
 
 - Springboot
 

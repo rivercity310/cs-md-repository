@@ -1,4 +1,13 @@
+## How to Read
 
+1. Download obsidian app: https://obsidian.md/
+2. Clone this repository
+```git
+git clone https://github.com/rivercity310/cs-md-repository.git
+```
+3. Open cloned folder using obsidian app
+
+---
 # Table
 
 ### Computer Science
@@ -21,7 +30,6 @@
 	- [Software Development Process Model 2](computer-science/software-engineering/Software-Development-Process-Model-2.md)
 	- [UML & Usecase Diagram](computer-science/software-engineering/UML.md)
 	
----
 ## Development
 
 - Android
@@ -35,7 +43,6 @@
 
 - Springboot
 
---- 
 
 ## Data Structure & Algorithm
 - DS

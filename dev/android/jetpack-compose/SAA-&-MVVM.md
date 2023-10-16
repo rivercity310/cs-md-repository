@@ -57,7 +57,7 @@ class TestViewModel : AndroidViewModel(application) {
 - Activity, Fragment 등의 생명주기를 인식하고, 생명주기 내에서 동작
 - 메모리 누출이 없고 생명주기에 따른 데이터 관리를 하지 않아도 되는 이점
 
-#### 단점
+##### 단점
 - 비동기 데이터 스트림을 처리하기 부적합
 	- LiveData의 관찰은 Main Thread에서만 진행
 - 오직 한번만 변경된 데이터를 관찰해야 하는 경우 부적합

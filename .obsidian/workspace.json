@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0cc29156e752a2cd",
+        "id": "a9bcbea47b0fed3e",
         "type": "tabs",
         "children": [
           {
-            "id": "b19a7da663d47d98",
+            "id": "16b5f929f1b027f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/socket-programming/TCP-IP-Protocol.md",
+                "file": "computer-science/database/Transaction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/socket-programming/TCP-IP-Protocol.md",
+                "file": "computer-science/database/Transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/socket-programming/TCP-IP-Protocol.md",
+                "file": "computer-science/database/Transaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/socket-programming/TCP-IP-Protocol.md"
+                "file": "computer-science/database/Transaction.md"
               }
             }
           }
@@ -147,32 +147,34 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "b19a7da663d47d98",
+  "active": "16b5f929f1b027f7",
   "lastOpenFiles": [
+    "Images/database/checkpoint.png",
+    "Readme.md",
+    "computer-science/database/Transaction.md",
+    "computer-science/database/Keys-&-Integrity-Constraint.md",
+    "computer-science/database/Database-Design.md",
+    "computer-science/database/Functional-Dependency.md",
+    "computer-science/database/Nomalization.md",
+    "computer-science/database/lock.md",
+    "dev/android/jetpack-compose/SAA-&-MVVM.md",
+    "computer-science/database/Untitled.md",
+    "computer-science/socket-programming/TCP-IP-Protocol.md",
+    "dev/android/common/Intent.md",
     "Images/socket-programming/tcp-header.png",
     "Images/socket-programming/3way.png",
     "computer-science/socket-programming/C-Socket-Basic.md",
-    "computer-science/socket-programming/TCP-IP-Protocol.md",
-    "dev/android/common/Intent-1.md",
     "dev/android/common/Clean Architecture.md",
-    "dev/android/jetpack-compose/SAA-&-MVVM.md",
     "Images/Database/db_design.png",
     "Images/Database/key001.png",
     "dev/android/common/AndroidManifest.md",
-    "Readme.md",
     "Images/android/viewmodel.png",
     "Images/android/mvvm.png",
     "Images/android/intent.png",
     "computer-science/software-engineering/Software-Development-Process-Model-1.md",
-    "computer-science/database/Transaction.md",
     "dev/android/common/Android-Architecture.md",
     "dev/android/common",
     "computer-science/software-engineering/Software-Development-Process-Model-2.md",
-    "computer-science/database/Untitled.md",
-    "computer-science/database/Functional-Dependency.md",
-    "computer-science/database/Database-Design.md",
-    "computer-science/database/Keys-&-Integrity-Constraint.md",
-    "computer-science/database/Nomalization.md",
     "Images/springboot",
     "dev/springboot",
     "dev/android",
@@ -181,7 +183,6 @@
     "Images/android/art.png",
     "Images/android/dvm.png",
     "computer-science/operating-system",
-    "Images/android/android-software-stack.png",
     "Images/android",
     "dev/android/jetpack-compose",
     "dev",
@@ -194,7 +195,6 @@
     "_Images/db_design .png.md",
     "_images/db_design .png.md",
     "db_design 1.png.md",
-    "Database Programming/DBP 1번.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

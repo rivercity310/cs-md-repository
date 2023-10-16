@@ -36,5 +36,5 @@ TCP를 사용하는 송신자와 수신자는 데이터를 전송하기 앞서 �
 
 ---
 ## References
-- **https://yozm.wishket.com/magazine/detail/2005/** (중요)
+- **https://yozm.wishket.com/magazine/detail/2005/ (중요)
 - https://aws-hyoh.tistory.com/entry/TCPIP-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0

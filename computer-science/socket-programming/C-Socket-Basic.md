@@ -99,7 +99,111 @@ struct hostent* gethostbyname(const char* name);
 struct hostent* gethostbyaddr(const char* addr, int len, int type);
 ```
 
-클라이언트 소켓 생성시 OS에서 임의로 포트번호 부여
-포트 번호를 지정하고 싶다면 bind() 함수를 통해 사용자 임의로 지정 가능
+---
+
+## Winsock Socket
+
+클라이언트 소켓 생성시 OS에서 임의로 포트번호 부여, 만약 포트 번호를 지정하고 싶다면 클라이언트 소켓에 bind() 함수를 통해 사용자 임의로 지정이 가능하다.
+
+TCP 연결을 위해서는 다음 네가지 정보가 필요하다.
+- 지역 IP 주소
+- 지역 포트 번호
+- 원격 IP 주소
+- 원격 포트 번호
+
+#### TCP 서버-클라이언트 핵심 동작
 
 ![](images/socket-programming/tcp.png) 
+
+1. 서버는 소켓을 생성한 후 클라이언트의 접속을 기다린다. 이때 서버가 사용하는 소켓은 특정 포트 번호와 결합되어 있어, 이 포트 번호로 접속하는 클라이언트만 수용 가능하다.
+
+2. 클라이언트가 서버에 접속하면, TCP 프로토콜 수준에서 연결 설정(3-way-handshake)을 위한 패킷 교환이 일어난다.
+
+3. 연결이 설정되면, 서버에서 클라이언트와 통신할 수 있는 새 소켓을 생성하고, 이 소켓을 이용하여 서버와 클라이언트가 데이터를 주고받는다. 기존 소켓은 새로운 클라이언트 접속을 수용하는데 계속 사용된다.
+
+
+### TCP 서버 함수
+- socket(): 소켓을 생성함으로써 사용할 프로토콜을 결정
+- bind(): 소켓의 지역 IP 주소와 지역 포트 번호를 결정
+- listen(): 소켓의 TCP 상태를 `LISTENING(클라이언트 접속을 받을 준비 완료)`으로 변경
+- accept(): 클라이언트 접속을 수용하고, 접속한 클라이언트와 통신할 수 있는 새로운 소켓 생성, 이때 원격 IP 주소(클라이언트 IP)와 원격 포트 번호(클라이언트 포트)가 결정된다. 
+
+### TCP 클라이언트 함수
+- connect(): TCP 프로토콜 수준에서 서버와 논리적 연결 설정
+
+### Send, Recv
+- TCP: send(), recv()
+- UDP: sendto(), recvfrom()
+- Windows 전용: WSASend*(), WSARecv*()
+- Linux 전용: write(), read()
+
+TCP 소켓과 연관된 데이터 구조체에는 지역/원격 주소 정보 외에 `데이터 송수신 버퍼`가 있다. 송신 버퍼와 수신 버퍼를 통틀어 `소켓 버퍼`라고 부르고, `send()`와 `recv()`는 소켓 버퍼에 접근할 수 있도록 만든 함수이다.
+
+send() 함수는 응용 프로그램의 데이터 전송을 위해 `OS의 송신 버퍼`에 데이터를 복사하고 곧바로 리턴한다. 즉, send() 함수가 리턴했다고 실제 데이터가 전송된 것이 아니고, 일정 시간이 흘러야 하부 프로토콜(TCP/IP)을 통해 전송이 완료된다.
+
+recv() 함수는 `OS의 수신 버퍼`에 도착한 데이터를 응용 프로그램 버퍼에 복사한다.
+세번째 인자 flags는 recv() 함수의 동작을 바꾸는 옵션으로 다음 옵션이 있다.
+- 0(Default): 수신 버퍼의 데이터를 len 크기만큼 응용 프로그램 버퍼에 복사한뒤 해당 데이터를 수신 버퍼에서 삭제, 만약 도착한 데이터의 크기가 len보다 작더라도 기다리지 않고 현재 있는 만큼만 데이터를 복사하고 리턴
+- MSG_PEEK: 복사 후 수신 버퍼의 데이터를 남겨둠
+- MSG_WAITALL: len 크기만큼 데이터가 수신 버퍼에 도착해서 복사될 때까지 대기
+
+
+### TCP 연결 코드 예제 (IPv6)
+
+```c 
+#define SERVERPORT 9000
+#define BUFSIZE    512
+
+#pragma comment(lib, "ws2_32")
+
+int main(int argc, char* argv[]) {
+	// Winsock 초기화
+	WSADATA wsa;
+	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0) {
+		exit(1);
+	}
+
+	// Socket 생성
+	SOCKET sock = socket(PF_INET6, SOCK_STREAM, IPPROTO_TCP);
+	if (sock == INVALID_SOCKET) exit(1);
+
+	// bind()
+	int retval;
+	struct sockaddr_in6 serveraddr;
+	memset(&serveraddr, 0, sizeof(serveraddr));
+
+	serveraddr.sin6_family = AF_INET6;
+	serveraddr.sin6_addr = in6addr_any;
+	serveraddr.sin6_port = htons(SERVERPORT);
+
+	retval = bind(sock, (struct sockaddr*)&serveraddr, sizeof(serveraddr));
+	if (retval == SOCKET_ERROR) exit(1);
+
+	// listen()
+	retval = listen(sock, SOMAXCONN);
+	if (retval == SOCKET_ERROR) exit(1);
+
+	// Client Connect
+	SOCKET client_sock;
+	struct sockaddr_in6 clientaddr;
+	int addrlen;
+	char buf[BUFSIZE + 1];
+
+	while (1) {
+		// accept()
+		addrlen = sizeof(clientaddr);
+		client_sock = accept(sock, (struct sockaddr*)&clientaddr, &addrlen);
+		if (client_sock == INVALID_SOCKET) exit(1);
+
+		// recv(), send() 데이터 주고 받기 
+		// ...
+	}
+
+	// Socket Close
+	closesocket(sock);
+
+	// Winsock 종료
+	WSACleanup();
+}
+
+```

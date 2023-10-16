@@ -22,16 +22,21 @@
 ## MVVM
 
 ![](images/android/mvvm.png)
-
 - Jetpack 등장 이전, 안드로이드의 기본 프레임워크는 MVC 패턴 지향
 - 기존 MVC 패턴의 단점 
 	- 액티비티(컨트롤러 역할)에 과도한 책임
 	- 테스트와 디버깅, 유지보수의 어려움
+- 비즈니스 로직과 프레젠테이션 로직을 UI로부터 분리하기 위해 MVP 패턴에서 파생
+	- 테스트, 유지보수 측면에서 용이
 
-### ViewModel
+
+### AAC ViewModel
 
 ![](images/android/viewmodel.png)
 
+- AAC(Android Architecture Components)의 ViewModel
+	- Android의 수명 주기를 고려하여 설계
+	- LiveData 등을 통해 View에 데이터 바인딩
 - ViewModel은 UI에 필요한 상태 데이터를 관리, UI 관련 로직을 처리한다
 - 액티비티나 프래그먼트의 생명 주기를 인식하여, 생명 주기와 무관하게 UI 상태를 유지
 	- 기존 SIS(Saved Instance State): 직렬화(Serialized) 방식, 큰 객체 보관의 비효율
@@ -44,6 +49,19 @@ class TestViewModel : AndroidViewModel(application) {
 	... 
 }
 ```
+
+
+
+### LiveData
+- 관찰가능한 Data Holder 클래스
+- Activity, Fragment 등의 생명주기를 인식하고, 생명주기 내에서 동작
+- 메모리 누출이 없고 생명주기에 따른 데이터 관리를 하지 않아도 되는 이점
+
+#### 단점
+- 비동기 데이터 스트림을 처리하기 부적합
+	- LiveData의 관찰은 Main Thread에서만 진행
+- 오직 한번만 변경된 데이터를 관찰해야 하는 경우 부적합
+	- 위 경우 SingleLiveData 사용
 
 ---
 ## References

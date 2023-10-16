@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b633a349d065c427",
+        "id": "0cc29156e752a2cd",
         "type": "tabs",
         "children": [
           {
-            "id": "e209e6747cf8f121",
+            "id": "b19a7da663d47d98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/android/jetpack-compose/SAA-&-MVVM.md",
+                "file": "computer-science/socket-programming/TCP-IP-Protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/android/jetpack-compose/SAA-&-MVVM.md",
+                "file": "computer-science/socket-programming/TCP-IP-Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/android/jetpack-compose/SAA-&-MVVM.md",
+                "file": "computer-science/socket-programming/TCP-IP-Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/android/jetpack-compose/SAA-&-MVVM.md"
+                "file": "computer-science/socket-programming/TCP-IP-Protocol.md"
               }
             }
           }
@@ -147,24 +147,27 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "e209e6747cf8f121",
+  "active": "b19a7da663d47d98",
   "lastOpenFiles": [
-    "Images/Database/key001.png",
-    "Images/Database/db_design.png",
+    "Images/socket-programming/tcp-header.png",
+    "Images/socket-programming/3way.png",
+    "computer-science/socket-programming/C-Socket-Basic.md",
+    "computer-science/socket-programming/TCP-IP-Protocol.md",
+    "dev/android/common/Intent-1.md",
+    "dev/android/common/Clean Architecture.md",
     "dev/android/jetpack-compose/SAA-&-MVVM.md",
+    "Images/Database/db_design.png",
+    "Images/Database/key001.png",
     "dev/android/common/AndroidManifest.md",
     "Readme.md",
     "Images/android/viewmodel.png",
     "Images/android/mvvm.png",
-    "dev/android/common/Intent-1.md",
     "Images/android/intent.png",
     "computer-science/software-engineering/Software-Development-Process-Model-1.md",
-    "computer-science/socket-programming/C-Socket-Basic.md",
     "computer-science/database/Transaction.md",
     "dev/android/common/Android-Architecture.md",
     "dev/android/common",
     "computer-science/software-engineering/Software-Development-Process-Model-2.md",
-    "computer-science/socket-programming/TCP-IP-Protocol.md",
     "computer-science/database/Untitled.md",
     "computer-science/database/Functional-Dependency.md",
     "computer-science/database/Database-Design.md",
@@ -182,7 +185,6 @@
     "Images/android",
     "dev/android/jetpack-compose",
     "dev",
-    "Images/software-engineering/usecase-diagram.png",
     "Computer.md",
     "computer-science",
     "images/Socket.md",
@@ -193,7 +195,6 @@
     "_images/db_design .png.md",
     "db_design 1.png.md",
     "Database Programming/DBP 1번.md",
-    "Database Programming/DBP 2번.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

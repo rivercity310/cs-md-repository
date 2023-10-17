@@ -19,7 +19,12 @@
 	- [Software Development Process Model 1](computer-science/software-engineering/Software-Development-Process-Model-1.md)
 	- [Software Development Process Model 2](computer-science/software-engineering/Software-Development-Process-Model-2.md)
 	- [UML & Usecase Diagram](computer-science/software-engineering/UML.md)
-	
+
+- Linux(CentOS)
+	- [디렉터리와 파일](computer-science/linux-centos/Directory-File.md)
+	- [Shell](computer-science/linux-centos/shell.md)
+
+
 ### Development
 
 - Android
@@ -29,9 +34,10 @@
 		- [Intent](Intent.md)
 
 	- Jetpack Compose
-		- [SAA & MVVM](dev/android/jetpack-compose/SAA-&-MVVM)
+		- [SAA & MVVM](dev/android/jetpack-compose/SAA-MVVM)
 
 - Springboot
+
 
 
 ### Data Structure & Algorithm

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/socket-programming/C-Socket-Basic.md",
+                "file": "computer-science/linux-centos/shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/socket-programming/C-Socket-Basic.md",
+                "file": "computer-science/linux-centos/shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/socket-programming/C-Socket-Basic.md",
+                "file": "computer-science/linux-centos/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/socket-programming/C-Socket-Basic.md"
+                "file": "computer-science/linux-centos/shell.md"
               }
             }
           }
@@ -149,52 +149,51 @@
   },
   "active": "fd432640b4f89874",
   "lastOpenFiles": [
+    "computer-science/linux-centos/Directory-File.md",
+    "computer-science/linux-centos/shell.md",
+    "Images/linux/chsh.png",
+    "Readme.md",
     "computer-science/socket-programming/TCP-IP-Protocol.md",
     "computer-science/socket-programming/C-Socket-Basic.md",
-    "[TCP-IP-Protocol.md",
-    "Readme.md",
-    "Images/Database/checkpoint.png",
+    "computer-science/database/Transaction.md",
+    "dev/android/common/Android-Architecture.md",
+    "dev/android/common/Intent.md",
+    "computer-science/database/Keys-&-Integrity-Constraint.md",
+    "Images/linux/ls-l.png",
+    "Images/linux/directory-arch.png",
+    "Images/linux",
+    "Images/새 폴더",
     "Images/Database/db_design.png",
     "Images/Database/key001.png",
-    "computer-science/database/Transaction.md",
+    "Images/Database/checkpoint.png",
+    "dev/android/jetpack-compose/SAA-MVVM.md",
+    "computer-science/linux-centos",
+    "[TCP-IP-Protocol.md",
     "Images/database/checkpoint.png",
-    "computer-science/database/Keys-&-Integrity-Constraint.md",
     "computer-science/database/Database-Design.md",
     "computer-science/database/Functional-Dependency.md",
     "computer-science/database/Nomalization.md",
     "computer-science/database/lock.md",
     "dev/android/jetpack-compose/SAA-&-MVVM.md",
     "computer-science/database/Untitled.md",
-    "dev/android/common/Intent.md",
     "Images/socket-programming/tcp-header.png",
     "Images/socket-programming/3way.png",
     "dev/android/common/Clean Architecture.md",
     "dev/android/common/AndroidManifest.md",
     "Images/android/viewmodel.png",
-    "Images/android/mvvm.png",
-    "Images/android/intent.png",
     "computer-science/software-engineering/Software-Development-Process-Model-1.md",
-    "dev/android/common/Android-Architecture.md",
     "dev/android/common",
     "computer-science/software-engineering/Software-Development-Process-Model-2.md",
     "Images/springboot",
     "dev/springboot",
     "dev/android",
-    "Images/android/dex-to-bin.png",
     "computer-science/software-engineering/UML.md",
     "computer-science/operating-system",
     "Images/android",
     "dev/android/jetpack-compose",
-    "dev",
     "Computer.md",
-    "computer-science",
     "images/Socket.md",
     "Images/Socket.md",
-    "[waterfall-model.png.md",
-    "Images/software-engineering",
-    "_Images/db_design .png.md",
-    "_images/db_design .png.md",
-    "db_design 1.png.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

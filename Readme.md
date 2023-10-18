@@ -23,7 +23,8 @@
 - Linux(CentOS)
 	- [디렉터리와 파일](computer-science/linux-centos/Directory-File.md)
 	- [Shell](computer-science/linux-centos/shell.md)
-
+	- [파일 접근 권한](computer-science/linux-centos/file-access-permission.md)
+	- [리눅스 프로세스 관리](process.md)
 
 ### Development
 

@@ -24,7 +24,8 @@
 	- [디렉터리와 파일](computer-science/linux-centos/Directory-File.md)
 	- [Shell](computer-science/linux-centos/shell.md)
 	- [파일 접근 권한](computer-science/linux-centos/file-access-permission.md)
-	- [리눅스 프로세스 관리](process.md)
+	- [Process 1 - 리눅스 프로세스 관리](computer-science/linux-centos/process-1.md)
+	- [Process 2 - 작업과 작업 제어](computer-science/linux-centos/process-2.md)
 
 ### Development
 
@@ -35,7 +36,7 @@
 		- [Intent](Intent.md)
 
 	- Jetpack Compose
-		- [SAA & MVVM](dev/android/jetpack-compose/SAA-MVVM)
+		- [SAA & MVVM](dev/android/jetpack-compose/SAA-MVVM.md)
 
 - Springboot
 

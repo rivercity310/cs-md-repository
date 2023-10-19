@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b7cdc5ecb8fcb26e",
+        "id": "bb9f49af83de3cff",
         "type": "tabs",
         "children": [
           {
-            "id": "fd432640b4f89874",
+            "id": "e950487594782c9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/linux-centos/file-access-permission.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/linux-centos/file-access-permission.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/linux-centos/file-access-permission.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/linux-centos/file-access-permission.md"
+                "file": "Readme.md"
               }
             }
           }
@@ -147,18 +147,19 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "fd432640b4f89874",
+  "active": "e950487594782c9b",
   "lastOpenFiles": [
-    "computer-science/linux-centos/process.md",
+    "computer-science/linux-centos/process-2.md",
+    "Readme.md",
+    "computer-science/linux-centos/process-1.md",
     "computer-science/linux-centos/shell.md",
+    "computer-science/linux-centos/Directory-File.md",
     "computer-science/linux-centos/file-access-permission.md",
+    "Images/Database/key001.png",
+    "Images/Database/db_design.png",
+    "Images/Database/checkpoint.png",
     "Images/linux/stickybit.png",
     "Images/linux/setuid.png",
-    "Readme.md",
-    "Images/Database/checkpoint.png",
-    "Images/Database/db_design.png",
-    "Images/Database/key001.png",
-    "computer-science/linux-centos/Directory-File.md",
     "dev/android/jetpack-compose/SAA-MVVM.md",
     "computer-science/socket-programming/C-Socket-Basic.md",
     "computer-science/socket-programming/TCP-IP-Protocol.md",

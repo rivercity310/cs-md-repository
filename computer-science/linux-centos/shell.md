@@ -130,11 +130,11 @@ ls . /abc > ls.out 2>&1
 
 ```bash
 SOME=test          // 셸 변수 정의
-set | grep SOME    // 셸 변수에서 SOME 검색 (결과 O)
+set | grep SOME    // 셸 변수, 환경 변수에서 SOME 검색 (결과 O)
 env | grep SOME    // 환경 변수에서 SOME 검색 (결과 X)
 
 export SOME        // SOME을 환경 변수로
-set | grep SOME    // 환경 변수에서 SOME 검색 (결과 O)
+set | grep SOME    // 셸 변수, 환경 변수에서 SOME 검색 (결과 O)
 env | grep SOME    // 환경 변수에서 SOME 검색 (결과 O)
 
 export -n SOME     // 환경 변수를 셸 변수로 전환

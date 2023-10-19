@@ -129,6 +129,4 @@ killall man
 - TIME+: CPU 누적 이용 시간
 - COMMAND: 명령 이름
 
----
-
 

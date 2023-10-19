@@ -8,9 +8,9 @@
     - TCP/IP: sockaddr_in(IPv4, 16byte), sockaddr_in6(IPv6, 28byte)
     - Bluetooth: sockaddr_bth(30byte)
 - 플랫폼별 선언 형식
-    - 리눅스, 윈도우 통합: **struct sockaddr
-    - c++ 컴파일러 사용시: **sockaddr
-    - 윈도우 전용: **SOCKADDR
+    - 리눅스, 윈도우 통합: **struct sockaddr**
+    - c++ 컴파일러 사용시: **sockaddr**
+    - 윈도우 전용: **SOCKADDR**
 
 ```cpp
 struct sockaddr {
@@ -38,6 +38,7 @@ struct sockaddr_in {
 - Ex) 0x12345678
     - Big-Endian: 최상위 바이트부터 저장 (0x12 0x34 0x56 0x78)
     - Little-Endian: 최하위 바이트부터 저장 (0x78 0x56 0x34 0x12)
+
 ### 2. Network Byte, Host Byte Translation
 - Network Byte(ex. router): Big Endian 고정, Host Byte : 그때그때 다름
 - 네트워크 통신을 위해 바이트 정렬(Byte Order) 필요
@@ -56,6 +57,8 @@ struct sockaddr_in {
 ---
 
 ## IP Address Translation Func
+`ws2tcpip.h` 헤더에 포함된 함수로 표준 텍스트 형식의 IPv4 또는 IPv6 주소를 이진 형식으로 변환해주는 함수
+
 - inet_addr(), inet_ntoa()
 	- 구형 C 함수로 사용시 **\#define _WINSOCK_DEPRECATED_NO_WARNINGS** 선언
 	- 혹은 inet_pton(), inet_ntop() 사용
@@ -153,7 +156,6 @@ recv() 함수는 `OS의 수신 버퍼`에 도착한 데이터를 응용 프로�
 ```c 
 #define SERVERPORT 9000
 #define BUFSIZE    512
-
 #pragma comment(lib, "ws2_32")
 
 int main(int argc, char* argv[]) {
@@ -205,5 +207,4 @@ int main(int argc, char* argv[]) {
 	// Winsock 종료
 	WSACleanup();
 }
-
 ```

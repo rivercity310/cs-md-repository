@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/linux-centos/Directory-File.md",
+                "file": "dev/android/jetpack-compose/slot_and_modifier.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/linux-centos/Directory-File.md",
+                "file": "dev/android/jetpack-compose/slot_and_modifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/linux-centos/Directory-File.md",
+                "file": "dev/android/jetpack-compose/slot_and_modifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/linux-centos/Directory-File.md"
+                "file": "dev/android/jetpack-compose/slot_and_modifier.md"
               }
             }
           }
@@ -149,46 +149,46 @@
   },
   "active": "e950487594782c9b",
   "lastOpenFiles": [
-    "computer-science/database/Transaction.md",
+    "dev/android/jetpack-compose/row_column_box.md",
     "dev/android/jetpack-compose/compose.md",
+    "Readme.md",
+    "dev/android/jetpack-compose/slot_and_modifier.md",
+    "Images/android/modifier.png",
     "dev/android/common/Intent.md",
     "dev/android/common/AndroidManifest.md",
+    "dev/android/common/Android-Architecture.md",
+    "Images/android/local_color.png",
+    "dev/android/jetpack-compose/SAA-MVVM.md",
+    "Images/android/composition_local.png",
+    "dev/android/common/Clean Architecture.md",
+    "computer-science/linux-centos/file-access-permission.md",
     "computer-science/software-engineering/UML.md",
+    "Images/Database/key001.png",
+    "Images/Database/db_design.png",
+    "Images/Database/checkpoint.png",
     "computer-science/software-engineering/Software-Development-Process-Model-1.md",
+    "computer-science/database/Transaction.md",
+    "computer-science/linux-centos/Directory-File.md",
     "computer-science/socket-programming/C-Socket-Basic.md",
     "computer-science/socket-programming/TCP-IP-Protocol.md",
-    "computer-science/linux-centos/file-access-permission.md",
-    "computer-science/linux-centos/Directory-File.md",
     "computer-science/linux-centos/shell.md",
     "computer-science/linux-centos/process-2.md",
     "computer-science/linux-centos/process-1.md",
-    "Readme.md",
-    "Images/Database/db_design.png",
-    "Images/Database/checkpoint.png",
-    "Images/Database/key001.png",
     "Images/linux/stickybit.png",
     "Images/linux/setuid.png",
-    "dev/android/jetpack-compose/SAA-MVVM.md",
     "Images/linux/chsh.png",
-    "dev/android/common/Android-Architecture.md",
     "computer-science/database/Keys-&-Integrity-Constraint.md",
     "Images/linux/ls-l.png",
-    "Images/linux/directory-arch.png",
     "Images/linux",
     "Images/새 폴더",
     "computer-science/linux-centos",
     "[TCP-IP-Protocol.md",
-    "Images/database/checkpoint.png",
     "computer-science/database/Database-Design.md",
     "computer-science/database/Functional-Dependency.md",
     "computer-science/database/Nomalization.md",
     "computer-science/database/lock.md",
     "dev/android/jetpack-compose/SAA-&-MVVM.md",
-    "computer-science/database/Untitled.md",
-    "Images/socket-programming/tcp-header.png",
-    "dev/android/common/Clean Architecture.md",
     "dev/android/common",
-    "computer-science/software-engineering/Software-Development-Process-Model-2.md",
     "Images/springboot",
     "dev/springboot",
     "dev/android",

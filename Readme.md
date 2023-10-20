@@ -23,8 +23,9 @@
 - [디렉터리와 파일](computer-science/linux-centos/Directory-File.md)
 - [Shell](computer-science/linux-centos/shell.md)
 - [파일 접근 권한](computer-science/linux-centos/file-access-permission.md)
-- [Process 1 - 리눅스 프로세스 관리](computer-science/linux-centos/process-1.md)
-- [Process 2 - 작업과 작업 제어](computer-science/linux-centos/process-2.md)
+- [리눅스 프로세스 관리](computer-science/linux-centos/process.md)
+- [파일 시스템과 디스크 관리](computer-science/linux-centos/filesystem_and_disk.md)
+
 
 ---
 ## Development

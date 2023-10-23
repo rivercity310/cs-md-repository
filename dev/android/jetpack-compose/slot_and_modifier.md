@@ -115,7 +115,7 @@ fun CustomImage(image: Int, modifier: Modifier = Modifier) {
 	Image(
 		painter = painterResource(image),
 		contentDescription = null,
-		modifier = Modifier
+		modifier = modifier
 	)
 }
 ```
@@ -135,7 +135,7 @@ fun CustomImage(image: Int, modifier: Modifier = Modifier) {
 - size: 컴포저블의 높이와 폭을 지정한다
 
 ### 모디파이어 조합하기
-동일한 컴포저블에 둘 잇아의 Modifier 객체를 이용해야 할 때 `then` 키워드를 이용해 조합할 수 있다.
+동일한 컴포저블에 둘 이상의 Modifier 객체를 이용해야 할 때 `then` 키워드를 이용해 조합할 수 있다.
 
 ```kotlin
 val mod1 = Modifier

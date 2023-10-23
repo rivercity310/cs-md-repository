@@ -24,8 +24,6 @@ struct sockaddr_in {
 	struct in_addr  sin_addr;      // IPv4 주소 (sin_addr.s_addr에 IP 입력)
 	char            sin_zero[8];   // 항상 0으로 설정
 }
-
-
 ```
 
 

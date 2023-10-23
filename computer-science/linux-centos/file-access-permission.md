@@ -11,6 +11,7 @@ groups user1       // 인자 생략시 자신이 속한 그룹 출력
 #### 기본 접근 권한
 - file: `-rw-rw-r--`
 - directory: `drwxrwxr-x`
+- umask: 0002
 
 기본 접근 권한을 확인하고 설정할 때 `umask` 명령을 사용
 - umask \[옵션\] \[마스크 값\]

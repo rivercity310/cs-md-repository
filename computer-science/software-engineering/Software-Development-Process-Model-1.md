@@ -14,7 +14,7 @@
 - 계획, 분석, 설계, 구현, 테스트, 유지보수 각 단계가 하향식(top-down)으로 진행
 - 각 단계마다 확실히 매듭을 짓고 그 결과를 확인한 후 다음 단계 진행
 - 각 단계마다 상세한 문서가 생성되는 문서 중심의 모델
-- R, A, D, C, T, M (Requirement, Analysis, Design, Coding, Test, Maintenance)
+- R, A, D, C, T, M (Requirements, Analysis, Design, Coding, Test, Maintenance)
 
 #### 장점
 - 절차가 간결하고 이해하기 쉽다

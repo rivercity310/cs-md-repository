@@ -19,6 +19,7 @@
 - [Software Development Process Model 1](computer-science/software-engineering/Software-Development-Process-Model-1.md)
 - [Software Development Process Model 2](computer-science/software-engineering/Software-Development-Process-Model-2.md)
 - [UML & Usecase Diagram](computer-science/software-engineering/UML.md)
+- [계획](computer-science/software-engineering/requirements)
 
 #### Linux(CentOS)
 - [디렉터리와 파일](computer-science/linux-centos/Directory-File.md)

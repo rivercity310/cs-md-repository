@@ -49,7 +49,7 @@ file /usr/bin/pigz     // ELF 64-bit LSB executable ...
 ### mkdir, rmdir
 - 디렉터리 생성/삭제 명령어
 - 디렉터리 인자를 여러개 전달 가능
-- `rmdir`은 비어있는 디렉터리만 삭제할 수 있다. 비어있지 않은 디렉터리는 `rm` 명령어 
+- `rmdir`은 비어있는 디렉터리만 삭제할 수 있다. 비어있지 않은 디렉터리는 `rm` 명령
 - -p: 중간 디렉터리를 자동으로 만들거나, 삭제
 ```bash
 mkdir -p /tmp/mid/test.txt
@@ -91,7 +91,7 @@ rmdir test1 test2 test3
 ---
 
 ## 파일 관련 명령
-
+ 
 ### cat
 - 파일 내용 출력
 - -n: 행 번호를 붙여서 출력

@@ -121,9 +121,9 @@ killall man
 - PID, USER, %CPU, %MEM
 - PR: 우선순위
 - NI: Nice 값
-- VIRT: 프로세스가 사용하는 가상 메모리의 크기
-- RES: 프로세스가 사용하는 메모리의 크기
-- SHR: 프로세스가 사용하는 공유 메모리의 크기
+- VIRT: 프로세스가 사용하는 `가상 메모리`의 크기
+- RES: 프로세스가 사용하는 `실제 메모리`의 크기
+- SHR: 프로세스가 사용하는 `공유 메모리`의 크기
 - TIME+: CPU 누적 이용 시간
 - COMMAND: 명령 이름
 
@@ -170,8 +170,8 @@ find / -name passwd > pw.dat 2>&1 &
 #### nohup
 백그라운드 작업을 실행한 터미널이 종료되거나, 로그아웃 후에도 백그라운드 작업 계속 실행하려면 `nohup` 명령을 사용한다. `nohup` 명령을 사용하는 경우 반드시 백그라운드로 실행해야 하고, 별도로 출력 방향을 전환하지 않으면 명령의 실행 결과와 오류 메세지가 현재 디렉터리의 `nohup.out` 파일로 자동 저장된다.
 ```shell
-nohup find / -name passwd &               // nohub.out에 저장
-nohup find / -name passwd > pw.dat 2>&1   // pw.dat에 저장
+nohup find / -name passwd &                 // nohub.out에 저장
+nohup find / -name passwd > pw.dat 2>&1 &   // pw.dat에 저장
 ```
 
 ### 작업 예약

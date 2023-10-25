@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/android/jetpack-compose/custom-layout.md",
+                "file": "computer-science/database/Transaction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/android/jetpack-compose/custom-layout.md",
+                "file": "computer-science/database/Transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/android/jetpack-compose/custom-layout.md",
+                "file": "computer-science/database/Transaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/android/jetpack-compose/custom-layout.md"
+                "file": "computer-science/database/Transaction.md"
               }
             }
           }
@@ -149,8 +149,15 @@
   },
   "active": "ba429127c65149a0",
   "lastOpenFiles": [
-    "computer-science/linux-centos/mount.md",
+    "computer-science/database/dbp.md",
     "computer-science/database/Database-Design.md",
+    "Readme.md",
+    "Images/Database/key001.png",
+    "Images/Database/db_waterfall_process.png",
+    "Images/Database/checkpoint.png",
+    "Images/Database/db_design.png",
+    "dev/android/jetpack-compose/custom-layout.md",
+    "computer-science/linux-centos/mount.md",
     "computer-science/database/Transaction.md",
     "computer-science/database/Keys-&-Integrity-Constraint.md",
     "computer-science/database/Functional-Dependency.md",
@@ -163,20 +170,13 @@
     "dev/android/jetpack-compose/SAA-MVVM.md",
     "dev/android/jetpack-compose/slot_and_modifier.md",
     "dev/android/jetpack-compose/row_column_box.md",
-    "dev/android/jetpack-compose/custom-layout.md",
     "dev/android/jetpack-compose/compose.md",
-    "Readme.md",
     "Images/android/baseline.png",
     "Images/android/arrangement.png",
-    "Images/Database/checkpoint.png",
-    "Images/Database/key001.png",
-    "Images/Database/db_design.png",
-    "Images/Database/db_waterfall_process.png",
     "computer-science/linux-centos/Directory-File.md",
     "computer-science/software-engineering/requirements.md",
     "Images/software-engineering/fp.png",
     "computer-science/software-engineering/Software-Development-Process-Model-1.md",
-    "computer-science/database/dbp.md",
     "Images/linux/lvm.png",
     "Images/linux/fstab.png",
     "computer-science/socket-programming/application-protocol.md",
@@ -184,7 +184,6 @@
     "computer-science/socket-programming/C-Socket-Basic.md",
     "Images/database/db_waterfall_process.png",
     "computer-science/database/Nomalization.md",
-    "computer-science/linux-centos/process-2.md",
     "Images/linux",
     "Images/새 폴더",
     "computer-science/linux-centos",

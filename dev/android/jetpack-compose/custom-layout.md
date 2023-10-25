@@ -48,9 +48,9 @@ fun CustomBoxLayout(
 	Layout(
 		modifier = modifier,
 		content = content
-	) { measuables, constraints ->
+	) { measurables, constraints ->
 		// 자식 각각을 측정
-		val placeables: List<Placeable> = measuables.map { measurable ->
+		val placeables: List<Placeable> = measurables.map { measurable ->
 			measurable.measure(constraints)
 		}
 	

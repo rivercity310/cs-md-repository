@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "computer-science/linux-centos/network-setting-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "computer-science/linux-centos/network-setting-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "computer-science/linux-centos/network-setting-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "computer-science/linux-centos/network-setting-1.md"
               }
             }
           }
@@ -149,10 +149,17 @@
   },
   "active": "ba429127c65149a0",
   "lastOpenFiles": [
+    "Images/linux/nmcli-connection-2.png",
+    "Images/linux/nmcli-connection-1.png",
+    "Images/linux/nmcli-networking.png",
+    "Images/linux/nmcli-general.png",
     "computer-science/linux-centos/boot.md",
-    "computer-science/linux-centos/daemon-bootloader.md",
     "Readme.md",
+    "computer-science/linux-centos/network-setting-1.md",
     "computer-science/linux-centos/Untitled.md",
+    "computer-science/socket-programming/TCP-IP-Protocol.md",
+    "computer-science/linux-centos/Untitled 1.md",
+    "computer-science/linux-centos/daemon-bootloader.md",
     "computer-science/linux-centos/mount.md",
     "computer-science/linux-centos/process.md",
     "computer-science/linux-centos/Directory-File.md",
@@ -175,16 +182,9 @@
     "computer-science/database/Nomalization.md",
     "computer-science/database/Functional-Dependency.md",
     "computer-science/socket-programming/application-protocol.md",
-    "computer-science/database/Database-Design.md",
-    "computer-science/database/Transaction.md",
-    "computer-science/database/dbp.md",
-    "computer-science/database/Keys-&-Integrity-Constraint.md",
     "Images/android/baseline.png",
     "Images/android/arrangement.png",
     "Images/software-engineering/fp.png",
-    "Images/linux/lvm.png",
-    "Images/linux/fstab.png",
-    "Images/database/db_waterfall_process.png",
     "Images/linux",
     "Images/새 폴더",
     "computer-science/linux-centos",

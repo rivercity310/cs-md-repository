@@ -29,7 +29,8 @@
 - [리눅스 프로세스 관리](computer-science/linux-centos/process.md)
 - [파일 시스템 & ext4 구조](computer-science/linux-centos/filesystem_and_disk.md)
 - [마운트 & LVM & 디스크 관리](computer-science/linux-centos/mount.md)
-- [리눅스 부팅, 데몬, GRUB](/computer-science/linux-centos/boot)
+- [리눅스 부팅, 데몬, GRUB](/computer-science/linux-centos/boot.md)
+- [네트워크 설정 - 1](computer-science/linux-centos/network-setting-1.md)
 
 
 ---

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/database/Transaction.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/database/Transaction.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/database/Transaction.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/database/Transaction.md"
+                "file": "Readme.md"
               }
             }
           }
@@ -149,41 +149,42 @@
   },
   "active": "ba429127c65149a0",
   "lastOpenFiles": [
-    "computer-science/database/dbp.md",
-    "computer-science/database/Database-Design.md",
+    "computer-science/linux-centos/boot.md",
+    "computer-science/linux-centos/daemon-bootloader.md",
     "Readme.md",
-    "Images/Database/key001.png",
-    "Images/Database/db_waterfall_process.png",
-    "Images/Database/checkpoint.png",
-    "Images/Database/db_design.png",
-    "dev/android/jetpack-compose/custom-layout.md",
+    "computer-science/linux-centos/Untitled.md",
     "computer-science/linux-centos/mount.md",
-    "computer-science/database/Transaction.md",
-    "computer-science/database/Keys-&-Integrity-Constraint.md",
-    "computer-science/database/Functional-Dependency.md",
-    "computer-science/linux-centos/filesystem_and_disk.md",
     "computer-science/linux-centos/process.md",
+    "computer-science/linux-centos/Directory-File.md",
     "computer-science/linux-centos/file-access-permission.md",
+    "computer-science/linux-centos/filesystem_and_disk.md",
     "computer-science/linux-centos/shell.md",
-    "computer-science/software-engineering/UML.md",
+    "computer-science/software-engineering/Software-Development-Process-Model-1.md",
+    "Images/Database/key001.png",
+    "Images/Database/db_design.png",
+    "Images/Database/checkpoint.png",
+    "Images/Database/db_waterfall_process.png",
+    "computer-science/software-engineering/requirements.md",
+    "computer-science/software-engineering/일정-계획.md",
     "computer-science/software-engineering/Software-Development-Process-Model-2.md",
-    "dev/android/jetpack-compose/SAA-MVVM.md",
-    "dev/android/jetpack-compose/slot_and_modifier.md",
-    "dev/android/jetpack-compose/row_column_box.md",
+    "computer-science/software-engineering/UML.md",
+    "dev/android/jetpack-compose/custom-layout-&-constraint-layout.md",
+    "custom-layout-&-constraint-layout-&-constraint-layout.md",
     "dev/android/jetpack-compose/compose.md",
+    "dev/android/jetpack-compose/SAA-MVVM.md",
+    "computer-science/database/Nomalization.md",
+    "computer-science/database/Functional-Dependency.md",
+    "computer-science/socket-programming/application-protocol.md",
+    "computer-science/database/Database-Design.md",
+    "computer-science/database/Transaction.md",
+    "computer-science/database/dbp.md",
+    "computer-science/database/Keys-&-Integrity-Constraint.md",
     "Images/android/baseline.png",
     "Images/android/arrangement.png",
-    "computer-science/linux-centos/Directory-File.md",
-    "computer-science/software-engineering/requirements.md",
     "Images/software-engineering/fp.png",
-    "computer-science/software-engineering/Software-Development-Process-Model-1.md",
     "Images/linux/lvm.png",
     "Images/linux/fstab.png",
-    "computer-science/socket-programming/application-protocol.md",
-    "computer-science/socket-programming/TCP-IP-Protocol.md",
-    "computer-science/socket-programming/C-Socket-Basic.md",
     "Images/database/db_waterfall_process.png",
-    "computer-science/database/Nomalization.md",
     "Images/linux",
     "Images/새 폴더",
     "computer-science/linux-centos",

@@ -20,6 +20,7 @@
 - [Software Development Process Model 2](computer-science/software-engineering/Software-Development-Process-Model-2.md)
 - [UML & Usecase Diagram](computer-science/software-engineering/UML.md)
 - [계획](computer-science/software-engineering/requirements)
+- [일정 계획](computer-science/software-engineering/일정-계획.md)
 
 #### Linux(CentOS)
 - [디렉터리와 파일](computer-science/linux-centos/Directory-File.md)
@@ -28,6 +29,8 @@
 - [리눅스 프로세스 관리](computer-science/linux-centos/process.md)
 - [파일 시스템 & ext4 구조](computer-science/linux-centos/filesystem_and_disk.md)
 - [마운트 & LVM & 디스크 관리](computer-science/linux-centos/mount.md)
+- [리눅스 부팅, 데몬, GRUB](/computer-science/linux-centos/boot)
+
 
 ---
 ## Development
@@ -42,7 +45,7 @@
 	- [컴포즈 개요 & 상태 & CompositionLocal](dev/android/jetpack-compose/compose.md)
 	- [Slot API & Modifier](dev/android/jetpack-compose/slot_and_modifier.md)
 	- [Row & Column & Box](dev/android/jetpack-compose/row_column_box.md)
-	- [Custom Layout](dev/android/jetpack-compose/custom-layout.md)
+	- [Custom Layout](custom-layout-&-constraint-layout.md)
 	- [SAA & MVVM](dev/android/jetpack-compose/SAA-MVVM.md)
 
 #### Springboot

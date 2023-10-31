@@ -165,3 +165,45 @@ lvscan -> LV 정보 확인
 - 사용 예
 	- du
 	- du -s ~user1
+
+#### fsck
+- = file system check
+- inode, block, 디렉터리, 파일 링크 등을 검사하고 필요시 복구 작업 수행
+- 기본적으로 `/etc/fstab`에 지정된 파일 시스템을 대상으로 검사
+- 옵션
+	- -f: 강제로 점검
+	- -b 슈퍼블록: 슈퍼블록으로 지정한 백업 슈퍼블록을 사용
+	- -y: 모든 질문에 yes로 대답
+	- -a: 문제를 발견했을 때 자동으로 복구
+- 사용 예
+	- fsck /dev/nvme0n3
+	- fsck -f /dev/nvme0n3
+	- fsck.ext4 /dev/nvme0n4
+
+#### e2fsck
+- 리눅스의 확장 파일 시스템(ext2, ext3, ext4) 점검
+- 점검할 해당 파일 시스템의 마운트를 해제한 뒤 점검해야 한다 (오류 발생 위험)
+- 옵션
+	- -f: 강제로 점검
+	- -b 슈퍼블록: 슈퍼블록으로 지정한 백업 슈퍼블록 사용
+	- -y: 모든 질문에 yes로 대답
+	- -j ext3/ext4: ext3나 ext4 파일 시스템을 점가할 때 지정
+- 사용 예
+	- e2fsck /dev/nvme0n2
+	- e2fsck -f /dev/nvme0n3
+
+#### badblocks
+- 배드 블록을 검사하는 별도의 명령 (fsck, e2fsck로도 검사 가능)
+- 옵션
+	- -v: 검색 결과를 자세하게 출력
+	- -o 출력파일: 검색한 배드 블록 목록을 지정한 출력 파일에 저장
+- 사용 예
+	- badblocks -v /dev/nvme0n2
+	- badblocks -v -o bad.out /dev/nvme0n3
+
+#### dumpe2fs
+- 백업 슈퍼블록으로 파일 시스템을 복구해야 할 때 백업 슈퍼블록 위치를 파악
+- dumpe2fs /dev/nvme0n2
+
+#### dd
+- 지정한 블록 크기만큼 파일 복사

@@ -31,6 +31,7 @@
 - [마운트 & LVM & 디스크 관리](computer-science/linux-centos/mount.md)
 - [리눅스 부팅, 데몬, GRUB](/computer-science/linux-centos/boot.md)
 - [리눅스 네트워크 - 1](computer-science/linux-centos/network-setting-1.md)
+- [리눅스 네트워크 - 2 (Telnet & SSH & FTP)](computer-science/linux-centos/network-setting-2.md)
 
 
 ---

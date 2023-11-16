@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "dev/android/common/coroutine.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "dev/android/common/coroutine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "dev/android/common/coroutine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "dev/android/common/coroutine.md"
               }
             }
           }
@@ -149,15 +149,24 @@
   },
   "active": "ba429127c65149a0",
   "lastOpenFiles": [
-    "computer-science/linux-centos/network-setting-1.md",
-    "computer-science/linux-centos/filesystem_and_disk.md",
-    "dev/android/common/coroutine.md",
-    "Readme.md",
-    "computer-science/software-engineering/Software-Development-Process-Model-1.md",
+    "Images/Database/db_design.png",
     "Images/Database/key001.png",
     "Images/Database/checkpoint.png",
-    "Images/Database/db_design.png",
     "Images/Database/db_waterfall_process.png",
+    "Untitled.canvas",
+    "2023-11-10.md",
+    "computer-science/linux-centos/boot.md",
+    "computer-science/linux-centos/mount.md",
+    "computer-science/linux-centos/filesystem_and_disk.md",
+    "computer-science/linux-centos/shell.md",
+    "computer-science/linux-centos/file-access-permission.md",
+    "computer-science/linux-centos/network-setting-1.md",
+    "computer-science/linux-centos/process.md",
+    "computer-science/linux-centos/Directory-File.md",
+    "computer-science/linux-centos/network-setting-2.md",
+    "Readme.md",
+    "dev/android/common/coroutine.md",
+    "computer-science/software-engineering/Software-Development-Process-Model-1.md",
     "computer-science/software-engineering/requirements.md",
     "computer-science/database/Transaction.md",
     "dev/springboot/Untitled.md",
@@ -165,24 +174,15 @@
     "Images/linux/nmcli-connection-1.png",
     "Images/linux/nmcli-networking.png",
     "Images/linux/nmcli-general.png",
-    "computer-science/linux-centos/boot.md",
     "computer-science/linux-centos/Untitled.md",
     "computer-science/socket-programming/TCP-IP-Protocol.md",
     "computer-science/linux-centos/Untitled 1.md",
     "computer-science/linux-centos/daemon-bootloader.md",
-    "computer-science/linux-centos/mount.md",
-    "computer-science/linux-centos/process.md",
-    "computer-science/linux-centos/Directory-File.md",
-    "computer-science/linux-centos/file-access-permission.md",
-    "computer-science/linux-centos/shell.md",
     "computer-science/software-engineering/일정-계획.md",
     "computer-science/software-engineering/Software-Development-Process-Model-2.md",
     "computer-science/software-engineering/UML.md",
     "dev/android/jetpack-compose/custom-layout-&-constraint-layout.md",
     "custom-layout-&-constraint-layout-&-constraint-layout.md",
-    "dev/android/jetpack-compose/compose.md",
-    "dev/android/jetpack-compose/SAA-MVVM.md",
-    "computer-science/database/Nomalization.md",
     "Images/android/baseline.png",
     "Images/android/arrangement.png",
     "Images/linux",
@@ -195,7 +195,6 @@
     "computer-science/operating-system",
     "Images/android",
     "dev/android/jetpack-compose",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }

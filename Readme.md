@@ -50,6 +50,7 @@
 	- [Row & Column & Box](dev/android/jetpack-compose/row_column_box.md)
 	- [Custom Layout](custom-layout-&-constraint-layout.md)
 	- [SAA & MVVM](dev/android/jetpack-compose/SAA-MVVM.md)
+	- [리스트와 그리드](dev/android/jetpack-compose/list-grid.md)
 
 #### Springboot
 
